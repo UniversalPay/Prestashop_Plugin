@@ -1,0 +1,89 @@
+.img-preview {
+    margin: 10px 0
+}
+
+.error {
+    color: red
+}
+
+#evoLogo {
+    max-width: 130px;
+    float: right;
+}
+
+p.payment_module a.evopayments {
+	background: url(../img/logo16_btn.png) 15px 15px no-repeat #fbfbfb;
+     padding: 33px 40px 34px 99px;
+    font-weight: bold;
+}
+
+p.payment_module a.evopayments img {
+    margin-right: 10px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+p.payment_module a.evopayments:after {
+    display: block;
+    content: "\f054";
+    position: absolute;
+    right: 15px;
+    margin-top: -11px;
+    top: 50%;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    width: 14px;
+    color: #777777;
+}
+
+.iframeloading {
+    /*background:url(../img/loading.gif) center center no-repeat;
+    background-size: 60px auto;*/
+    min-height: 160px;
+}
+
+.iframeloading iframe {
+    min-height: 400px;
+    overflow: hidden !important;
+}
+
+#payMethods {
+    margin: 10px 0;
+}
+
+p.payment_module a.evopayments:hover {
+    background-color: #f6f6f6;
+}
+
+.img-preview img {
+    max-width: 680px;
+}
+
+#evopaymentsuAmountInfo {
+    float: left;
+}
+
+#evopaymentsLogo {
+    height: 60px;
+    float: right;
+}
+
+#evopaymentsStatusLogo {
+    height: 40px;
+}
+
+p.payment_module_17 {
+    padding: 0;
+    margin: 0;
+}
+
+p.payment_module_17 a.evopayments {
+    display: block;
+}
+
+p.payment_module_17 a.evopayments img {
+    margin-right: 10px;
+    height: 70px;
+    vertical-align: middle;
+}
