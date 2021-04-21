@@ -1,0 +1,12 @@
+p.payment_module a.evopayments:after {
+    content: '';
+}
+
+p.payment_module a.evopayments {
+    background-color: transparent;
+    padding: 0;
+}
+
+p.payment_module a.evopayments:hover {
+    background-color: transparent;
+}
