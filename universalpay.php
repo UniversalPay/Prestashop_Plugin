@@ -1105,7 +1105,7 @@ class UniversalPay extends PaymentModule
             }
 			$langCode = $this->context->language->iso_code;
 			if($langCode == 'mx'){
-			  $langCode = 'es';
+			  $langCode = 'es-MX';
 			}
             $purchase->channel(Payments\Payments::CHANNEL_ECOM)->
             userDevice(Payments\Payments::USER_DEVICE_DESKTOP)->
@@ -1126,7 +1126,6 @@ class UniversalPay extends PaymentModule
             userAgent($userAgent)->
             customerIPAddress($customerIPAddress)->
             customerAddressHouseName($customerAddressStreet)->
-            customerAddressState($customerAddressState)->
             customerEmail($customerEmail)->
             customerPhone($customerPhone);
 			
