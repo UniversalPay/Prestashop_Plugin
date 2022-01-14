@@ -5,7 +5,7 @@
 # Universal Pay PrestaShop Plugin
 This plugin is provided for Universal Pay merchants using PrestaShop V1.6 and V1.7. 
 
-Got a question? Visit https://www.universalpay.es/contacto/ for development help.
+Got a question? Visit https://www.universalpay.es/contacto/ or email integraciones_es@evopayments.com for support.
 
 ## Installation Guides
 
