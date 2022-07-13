@@ -44,3 +44,9 @@ include_once('lib/Response/Error/Errors.php');
 include_once('lib/Response/Error.php');
 include_once('lib/Response/Info.php');
 include_once('lib/Response/Success.php');
+
+include_once('lib/Logger/Logger.php');
+include_once('lib/Exception/TurnkeyCommunicationException.php');
+include_once('lib/Exception/TurnkeyTokenException.php');
+include_once('lib/Exception/TurnkeyInternalException.php');
+include_once('lib/Exception/TurnkeyValidationException.php');
